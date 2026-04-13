@@ -1,0 +1,5 @@
+/media/sf_SharedData/PA_ExtraCredit/csc-435-ea-RiddhimanRaguraman/app-cpp/build/CMakeFiles/file-retrieval-server.dir
+/media/sf_SharedData/PA_ExtraCredit/csc-435-ea-RiddhimanRaguraman/app-cpp/build/CMakeFiles/file-retrieval-benchmark.dir
+/media/sf_SharedData/PA_ExtraCredit/csc-435-ea-RiddhimanRaguraman/app-cpp/build/CMakeFiles/file-retrieval-client.dir
+/media/sf_SharedData/PA_ExtraCredit/csc-435-ea-RiddhimanRaguraman/app-cpp/build/CMakeFiles/edit_cache.dir
+/media/sf_SharedData/PA_ExtraCredit/csc-435-ea-RiddhimanRaguraman/app-cpp/build/CMakeFiles/rebuild_cache.dir

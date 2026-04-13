@@ -1,0 +1,2 @@
+/usr/bin/ar qc libFileRetrievalEngine.a CMakeFiles/FileRetrievalEngine.dir/proto/file_retrieval_engine.pb.cc.o CMakeFiles/FileRetrievalEngine.dir/proto/file_retrieval_engine.grpc.pb.cc.o
+/usr/bin/ranlib libFileRetrievalEngine.a

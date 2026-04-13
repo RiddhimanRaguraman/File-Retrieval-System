@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+package fre;
+
+service FileRetrievalEngine {
+    rpc Register(google.protobuf.Empty) returns (RegisterRep) {}
+    rpc ComputeIndex(IndexReq) returns (IndexRep) {}
+    rpc ComputeSearch(SearchReq) returns (SearchRep) {}
+}
+
+message RegisterRep {
+    int32 client_id = 1;
+}
+
+message IndexReq {
+    int32 client_id = 1;
+    string document_path = 2;
+    map<string, int64> word_frequencies = 3;
+}
+
+message IndexRep {
+    string ack = 1;
+}
+
+message SearchReq {
+    repeated string terms = 1;
+}
+
+message SearchRep {
+    map<string, int64> search_results = 1;
+}
